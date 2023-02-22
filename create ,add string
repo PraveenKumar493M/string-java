@@ -1,0 +1,30 @@
+class ModifyString {
+    public static void main(String[] args) {
+        //replace letter
+       String one="Audi";
+       one=one.replace("u","a");
+       System.out.println(one);
+       
+       //replace word
+      String two="Audi";
+      two=two.concat("TATA");
+      System.out.println(two);
+      
+      //add strings
+      StringBuilder three= new StringBuilder();
+      three. append("one");
+       three. append("two");
+        three. append("three");
+         String output= three.toString();
+        System.out.println(output);
+        
+        //buffer
+        StringBuffer four=new StringBuffer();
+        four.append("chennai");
+        four.append("Bangalore");
+        four.append("mumbai");
+        String output2= four.toString();
+        System.out.println(output2);
+        
+    }
+}
