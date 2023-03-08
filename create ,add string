@@ -1,5 +1,7 @@
 class ModifyString {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
+    
         //replace letter
        String one="Audi";
        one=one.replace("u","a");
